@@ -10,12 +10,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Redux Toolkit Counter</h1>
+        <h1>Redux Counter</h1>
         <p>Count: {count}</p>
         <div>
-          <button onClick={() => dispatch(increment())}>Increment</button>
-          <button onClick={() => dispatch(decrement())}>Decrement</button>
-          <button onClick={() => dispatch(reset())}>Reset</button>
+          <button onClick={() => dispatch(increment())}>Incrementar</button>
+          <button onClick={() => dispatch(decrement())}>Decrementar</button>
+          <button onClick={() => dispatch(reset())}>Resetar</button>
         </div>
       </header>
     </div>
